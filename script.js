@@ -32,7 +32,6 @@ gallery.forEach((img, i) => {
     img.addEventListener('click', () => showImage(i)); 
 });
 
-// Next, Prev and Close handlers
 nextBtn.addEventListener('click', nextImage);
 prevBtn.addEventListener('click', prevImage);
 closeBtn.addEventListener('click', close);
